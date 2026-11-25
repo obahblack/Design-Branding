@@ -21,8 +21,8 @@ Decorative dividers 1 px; original icons 1.75 px at 24 px; focus outline 3 px.
 Use sufficient boundary contrast for fields and essential controls. Subtle dividers must not be the sole interactive affordance.
 
 ## Imagery
-Original rounded geometric forms, layered planes, tonal orbital textures. Matte materials and one directional light. Meaningful transformation or arrangement. No generic robot brains, unrelated planets, rainbow clouds, or stock-photo filler.
-Photography, when used: real making and reviewing, directional natural light, honest color, uncluttered compositions. UI images show real workflows; label illustrative content.
+Imagery uses recognizable landscapes, light studies, gradients and natural details. Choose meaningful land, water, terrain, sky, texture or material. Teal/mint tonal grading provides coherence. No arbitrary disconnected shapes, robot brains, unrelated planets or rainbow clouds.
+Human or lifestyle imagery is not required. Prefer unpopulated landscapes, designed gradients and material studies. Product captures show real workflows; label illustrative content. Keep text off complex images unless contrast is tested.
 
 ## Icons
 24 px base grid. 1.75 px stroke. Rounded joins/caps. 16/20/24 px output sizes checked optically. Familiar meanings and text labels for ambiguous controls. Icons never replace accessible names.
