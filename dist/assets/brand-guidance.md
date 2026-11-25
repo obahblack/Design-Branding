@@ -7,7 +7,7 @@ Room for ideas. Structure for the work; space for the unexpected.
 Clear by nature. Open to possibility. Made to move forward.
 
 ## Color
-Monochrome surfaces dominate the product. Deep teal identifies actions in light mode; pale teal identifies actions in dark mode. Mint is an expressive background with dark Ink text. White on Mint is prohibited for text. No rainbow gradients or low-contrast pale text. Gradients are limited to teal/mint artwork, never control backgrounds or text reading surfaces.
+Monochrome surfaces dominate the product. Violet identifies actions in light mode; light lavender identifies actions in dark mode. Lavender is an expressive background with dark Ink text. White on Lavender is prohibited for text. Supporting accent families are lavender/orchid, cobalt/sky, coral/peach, amber/ochre and raspberry/rose/plum/lilac. Use them in illustration, editorial and brand compositions. Keep the dashboard neutral and primary actions violet. Accents are not arbitrary replacements for semantic feedback colors. No low-contrast reading text. Gradients belong in artwork, not control backgrounds. The full catalogue is in palette.json.
 Use tokens.json for exact semantic values. Status requires a label or icon as well as color.
 
 ## Type
@@ -21,7 +21,7 @@ Decorative dividers 1 px; original icons 1.75 px at 24 px; focus outline 3 px.
 Use sufficient boundary contrast for fields and essential controls. Subtle dividers must not be the sole interactive affordance.
 
 ## Imagery
-Imagery uses recognizable landscapes, light studies, gradients and natural details. Choose meaningful land, water, terrain, sky, texture or material. Teal/mint tonal grading provides coherence. No arbitrary disconnected shapes, robot brains, unrelated planets or rainbow clouds.
+Imagery uses recognizable landscapes, light studies, gradients and natural details. Choose meaningful land, water, terrain, sky, texture or material. Violet/lavender, indigo, warm sand and muted peach tonal grading provides coherence. No arbitrary disconnected shapes, robot brains, unrelated planets or rainbow clouds.
 Human or lifestyle imagery is not required. Prefer unpopulated landscapes, designed gradients and material studies. Product captures show real workflows; label illustrative content. Keep text off complex images unless contrast is tested.
 
 ## Icons

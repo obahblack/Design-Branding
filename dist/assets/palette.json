@@ -1,0 +1,124 @@
+{
+  "core": [
+    {
+      "name": "Violet",
+      "hex": "#6646D8"
+    },
+    {
+      "name": "Canvas",
+      "hex": "#FAF9F7"
+    },
+    {
+      "name": "Ink",
+      "hex": "#221F2C"
+    }
+  ],
+  "accents": [
+    {
+      "name": "Deep violet",
+      "hex": "#4D2FA2"
+    },
+    {
+      "name": "Lavender",
+      "hex": "#D9C9F7"
+    },
+    {
+      "name": "Orchid",
+      "hex": "#A98BE6"
+    },
+    {
+      "name": "Cobalt",
+      "hex": "#3153C4"
+    },
+    {
+      "name": "Sky",
+      "hex": "#C6DAF5"
+    },
+    {
+      "name": "Coral",
+      "hex": "#E9785F"
+    },
+    {
+      "name": "Peach",
+      "hex": "#F8C6B3"
+    },
+    {
+      "name": "Amber",
+      "hex": "#F2BB55"
+    },
+    {
+      "name": "Ochre",
+      "hex": "#946400"
+    },
+    {
+      "name": "Raspberry",
+      "hex": "#AA3F66"
+    },
+    {
+      "name": "Rose",
+      "hex": "#F3BDD0"
+    },
+    {
+      "name": "Plum",
+      "hex": "#603B69"
+    },
+    {
+      "name": "Lilac",
+      "hex": "#E9D9EF"
+    }
+  ],
+  "neutrals": [
+    {
+      "name": "Neutral 1000",
+      "hex": "#17151D"
+    },
+    {
+      "name": "Neutral 950",
+      "hex": "#221F2C"
+    },
+    {
+      "name": "Neutral 900",
+      "hex": "#2E2938"
+    },
+    {
+      "name": "Neutral 800",
+      "hex": "#46404F"
+    },
+    {
+      "name": "Neutral 700",
+      "hex": "#625B6E"
+    },
+    {
+      "name": "Neutral 600",
+      "hex": "#797083"
+    },
+    {
+      "name": "Neutral 500",
+      "hex": "#918A9D"
+    },
+    {
+      "name": "Neutral 400",
+      "hex": "#BFB9CA"
+    },
+    {
+      "name": "Neutral 300",
+      "hex": "#D4CEDD"
+    },
+    {
+      "name": "Neutral 200",
+      "hex": "#DED9E5"
+    },
+    {
+      "name": "Neutral 100",
+      "hex": "#EEEAF3"
+    },
+    {
+      "name": "Neutral 50",
+      "hex": "#F6F3FA"
+    },
+    {
+      "name": "Neutral 0",
+      "hex": "#FFFFFF"
+    }
+  ]
+}
