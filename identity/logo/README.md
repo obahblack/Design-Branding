@@ -1,0 +1,1 @@
+Placeholder only. Final logo intentionally unresolved. See ../../dist/assets/placeholder-mark.svg. Do not publish as a final identity. Digital primary/wordmark/symbol/monogram and PNG exports remain deferred until naming and mark approval.

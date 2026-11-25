@@ -1,0 +1,1 @@
+Original 24 px outline icons. 1.75 px strokes, rounded joins/caps. Downloadable individually on the iconography page and as ../../dist/assets/icons.svg.

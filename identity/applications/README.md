@@ -1,0 +1,1 @@
+Three SVG application concepts: ../../dist/assets/product-concept.svg, ../../dist/assets/launch-poster.svg and ../../dist/assets/presentation.svg. All are illustrative draft applications.
