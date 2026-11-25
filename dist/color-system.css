@@ -6,3 +6,5 @@
 @media(prefers-reduced-motion:reduce){.catalog-swatch{transition:none;transform:none}}
 [data-theme=dark] .success{color:#9DDFC3}.palette-rail{z-index:8}.catalog-wave{overflow:hidden}.catalog-swatch:last-child.is-active{width:max(28%,260px)}
 .catalog-swatch{display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start}.catalog-swatch-use{flex:none}.catalog-core .catalog-swatch-title{max-width:65%}
+
+.arch-gradient img{width:100%;height:100%;object-fit:cover}.arch-image-artifact .merch-thumb{width:100%;height:70%;object-fit:cover}.scenic-gradient img,.scenic-crop img{object-position:center}.scenic-launch img{object-position:center}

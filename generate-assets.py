@@ -33,8 +33,8 @@ Decorative dividers 1 px; original icons 1.75 px at 24 px; focus outline 3 px.
 Use sufficient boundary contrast for fields and essential controls. Subtle dividers must not be the sole interactive affordance.
 
 ## Imagery
-Imagery uses recognizable landscapes, light studies, gradients and natural details. Choose meaningful land, water, terrain, sky, texture or material. Violet/lavender, indigo, warm sand and muted peach tonal grading provides coherence. No arbitrary disconnected shapes, robot brains, unrelated planets or rainbow clouds.
-Human or lifestyle imagery is not required. Prefer unpopulated landscapes, designed gradients and material studies. Product captures show real workflows; label illustrative content. Keep text off complex images unless contrast is tested.
+Imagery brings the identity to life through branded tote bags, zip pouches, embroidered caps, printed apparel and physical painted artwork. Violet and lavender anchor the collection; coral, amber and blue provide considered accents. Use believable materials, thoughtful lighting and deliberate composition.
+Vary subjects across a page. No people are required. Do not default to repeated landscapes or disconnected abstract shapes. Label AI-generated merchandise as concept mockups. Product captures show believable workflows with readable interfaces. Keep UI text on clear surfaces.
 
 ## Icons
 24 px base grid. 1.75 px stroke. Rounded joins/caps. 16/20/24 px output sizes checked optically. Familiar meanings and text labels for ambiguous controls. Icons never replace accessible names.
