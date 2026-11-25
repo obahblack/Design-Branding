@@ -11,8 +11,8 @@ Monochrome surfaces dominate the product. Deep teal identifies actions in light 
 Use tokens.json for exact semantic values. Status requires a label or icon as well as color.
 
 ## Type
-Manrope: display and headings, 550–700. DM Sans: body and product UI, 400–600. IBM Plex Mono: code and secondary metadata. Fonts use the SIL Open Font License; preserve licenses when self-hosting. Fetch fonts from official distributions.
-Use 16 px reading text, 14 px controls and 12 px secondary metadata only. Default body line height 1.5. Display tracking -0.05em to -0.07em; normal tracking in UI copy. Fallbacks: Arial/sans-serif; monospace for code.
+Manrope: display and headings, 600–800. DM Sans: body and product UI, 400–600. IBM Plex Mono: code and secondary metadata. Fonts use the SIL Open Font License; preserve licenses when self-hosting. Fetch fonts from official distributions.
+Use bold 700 product page titles at 32/38 and section headings at 24/30; subheadings at 18/26 and 600. Use 16 px reading text, 14 px controls and 12 px secondary metadata only. Default body line height 1.5. Display tracking -0.05em to -0.07em; normal tracking in UI copy. Fallbacks: Arial/sans-serif; monospace for code.
 
 ## Form
 4 px spacing base; preferred steps 4,8,12,16,24,32,48,64.
