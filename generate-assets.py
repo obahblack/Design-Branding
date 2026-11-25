@@ -34,7 +34,7 @@ Use sufficient boundary contrast for fields and essential controls. Subtle divid
 
 ## Imagery
 Imagery brings the identity to life through branded tote bags, zip pouches, embroidered caps, printed apparel and physical painted artwork. Violet and lavender anchor the collection; coral, amber and blue provide considered accents. Use believable materials, thoughtful lighting and deliberate composition.
-Vary subjects across a page. No people are required. Do not default to repeated landscapes or disconnected abstract shapes. Label AI-generated merchandise as concept mockups. Product captures show believable workflows with readable interfaces. Keep UI text on clear surfaces.
+Use a different image for every placement: vary subjects, styles and backgrounds across a page. Include at most one landscape. Add packaging, studio objects, graphic prints and laptop/dashboard photography. No people are required. Do not default to repeated landscapes or disconnected abstract shapes. Label AI-generated merchandise as concept mockups. Product captures show believable workflows with readable interfaces. Keep UI text on clear surfaces.
 
 ## Icons
 24 px base grid. 1.75 px stroke. Rounded joins/caps. 16/20/24 px output sizes checked optically. Familiar meanings and text labels for ambiguous controls. Icons never replace accessible names.
