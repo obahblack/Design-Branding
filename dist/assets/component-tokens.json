@@ -1,0 +1,68 @@
+{
+  "version": "0.2",
+  "control": {
+    "height": {
+      "small": 32,
+      "medium": 40,
+      "large": 48
+    },
+    "radius": 6,
+    "borderWidth": 1,
+    "gap": 8,
+    "paddingX": {
+      "small": 14,
+      "medium": 16,
+      "large": 20
+    },
+    "labelSize": 14
+  },
+  "surface": {
+    "radius": 10,
+    "padding": 24,
+    "gap": 16
+  },
+  "focus": {
+    "width": 3,
+    "offset": 3,
+    "colorRole": "text"
+  },
+  "color": {
+    "light": {
+      "border": "#797083",
+      "divider": "#DED9E5",
+      "surface": "#FFFFFF",
+      "background": "#FAF9F7",
+      "text": "#221F2C",
+      "muted": "#625B6E",
+      "action": "#6646D8",
+      "error": "#B93239",
+      "success": "#176B43",
+      "warning": "#885B00",
+      "info": "#255EB8"
+    },
+    "dark": {
+      "border": "#918A9D",
+      "divider": "#4D465B",
+      "surface": "#23202C",
+      "background": "#17151D",
+      "text": "#F6F3FA",
+      "muted": "#BFB9CA",
+      "action": "#C7B5F5",
+      "error": "#FFADB0",
+      "success": "#9DDFC3",
+      "warning": "#F2CD7C",
+      "info": "#ABC9FF"
+    }
+  },
+  "elevation": {
+    "flat": "none",
+    "raised": "0 2px 8px rgb(0 0 0 / 8%)",
+    "overlay": "0 8px 28px rgb(0 0 0 / 16%)",
+    "modal": "0 24px 72px rgb(0 0 0 / 24%)"
+  },
+  "motion": {
+    "feedbackMs": 180,
+    "transitionMs": 280,
+    "reducedMotion": "Remove decorative loops; update states directly"
+  }
+}

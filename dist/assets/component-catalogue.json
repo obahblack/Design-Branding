@@ -1,0 +1,159 @@
+[
+  {
+    "type": "forms",
+    "sections": [
+      {
+        "id": "text",
+        "title": "Text inputs",
+        "description": "Labels stay visible. Hints explain the expected format before an error occurs.",
+        "specification": "control.height 32 / 40 / 48 · radius 6 · border 1 · padding-x 14 · gap 8",
+        "usage": "Neutral boundaries identify fields. The focus indicator uses the text color, with a 3 px offset ring; brand violet is reserved for actions and selected values."
+      },
+      {
+        "id": "field-states",
+        "title": "Field states",
+        "description": "Default, hover, focus, filled, invalid, read-only and disabled.",
+        "specification": "border default: color.border · hover: color.text · invalid: color.error · focus: text / 3 px",
+        "usage": "Errors use text and an icon as well as color. Disabled controls do not accept interaction; read-only values can still be copied."
+      },
+      {
+        "id": "long-text",
+        "title": "Text areas & number controls",
+        "description": "Long prompts need room. Numeric values need clear limits and units.",
+        "specification": "textarea min-height 112 · number min 1 / max 12 · label 14 / 500 · body 16",
+        "usage": "Keep length limits visible. Use numeric controls for quantities, never account numbers or identifiers."
+      },
+      {
+        "id": "select",
+        "title": "Selects, dropdowns & multi-select",
+        "description": "Use a select for a single value and a checkbox group for multiple selections.",
+        "specification": "menu radius 10 · option min-height 40 · padding 8 · elevation overlay · neutral border",
+        "usage": "Keep menu width aligned with its trigger. Use visible selection marks. The open specimen documents layout; native controls above provide the interactive examples."
+      },
+      {
+        "id": "choices",
+        "title": "Checkboxes, radios & switches",
+        "description": "Different selection rules deserve different controls.",
+        "specification": "checkbox / radio 18 · target min 44 · switch 36 × 22 · label-gap 10",
+        "usage": "Checkboxes allow multiple values; radios allow one per group. Switches apply immediately. Group related options with a fieldset and legend."
+      },
+      {
+        "id": "pickers",
+        "title": "Date, time, range & color pickers",
+        "description": "Use familiar native pickers with explicit labels and an always-visible value.",
+        "specification": "date / time: control.height · calendar cell 36 · range target 44 · color swatch 40 × 40 · gap 8",
+        "usage": "The browser supplies the calendar and clock UI. Format dates for the viewer and store unambiguous values. Do not use color alone to name a selection."
+      },
+      {
+        "id": "upload",
+        "title": "Upload & attachment states",
+        "description": "A file input, selected-file feedback and a visible removal action.",
+        "specification": "drop zone min-height 160 · radius 10 · border 1 dashed · neutral surface",
+        "usage": "This demo reads file names and sizes locally; it does not upload files. Validate type and size again on the server in a real product."
+      },
+      {
+        "id": "validation",
+        "title": "A complete form",
+        "description": "Submit to see field-level errors and a success state. Nothing is sent.",
+        "specification": "form field-gap 24 · label-gap 8 · section-gap 32 · required marker explained",
+        "usage": "Validate on submit, keep entered values, focus the first invalid control and associate each error with its field. Success is announced without losing context."
+      },
+      {
+        "id": "foundations",
+        "title": "Containers, borders & spacing",
+        "description": "The same quiet foundation supports every form.",
+        "specification": "space 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 · container padding 24 · control border 1",
+        "usage": "Use dividers for grouping and stronger neutral boundaries for interactive controls. Do not tint input borders or shadows violet just to make them feel branded."
+      }
+    ]
+  },
+  {
+    "type": "practice",
+    "sections": [
+      {
+        "id": "buttons",
+        "title": "Buttons & action hierarchy",
+        "description": "One primary action per decision area. Explore sizes with the control above.",
+        "specification": "height 32 / 40 / 48 · padding-x 14 / 16 / 20 · radius 6 · icon 20 · gap 8",
+        "usage": "Primary uses the action token. Secondary uses neutral borders, tertiary uses text. Destructive red is reserved for destructive intent. The traveling light is optional decoration, disabled for reduced motion."
+      },
+      {
+        "id": "button-states",
+        "title": "Action states",
+        "description": "Compare state treatments without relying only on color.",
+        "specification": "hover: neutral overlay · pressed: inset shadow · focus: 3 px text-color ring / 3 px offset",
+        "usage": "Loading preserves button width and explains the task. Disabled controls have a documented reason in the surrounding UI. Never remove keyboard focus styling."
+      },
+      {
+        "id": "menus",
+        "title": "Dropdown menus & popovers",
+        "description": "Actions sit in menus. Supplementary explanations sit in popovers.",
+        "specification": "trigger min-height 40 · menu min-width 200 · option min-height 40 · elevation overlay",
+        "usage": "Use a native select for values and a menu for actions. Keep menus inside the viewport. Popovers dismiss with Escape or an outside click."
+      },
+      {
+        "id": "navigation",
+        "title": "Navigation, tabs & breadcrumbs",
+        "description": "Make location and the active destination visible.",
+        "specification": "tabs height 44 · active underline 2 · breadcrumb gap 8 · segment radius 6",
+        "usage": "Tabs switch panels in the same context. Breadcrumbs show hierarchy. Segmented buttons change a local view. Arrow keys move between tabs."
+      },
+      {
+        "id": "notifications",
+        "title": "Toasts & inline notifications",
+        "description": "Feedback names the outcome and gives a next step when needed.",
+        "specification": "toast width min(360 px, viewport − 32 px) · padding 16 · radius 10 · status icon 20",
+        "usage": "Status uses semantic tokens with an icon and message. Toasts are dismissible and remain until dismissed in this demo. Keep critical errors inline and do not rely on transient feedback."
+      },
+      {
+        "id": "overlays",
+        "title": "Modal dialogs & side panels",
+        "description": "Use a modal for a focused decision, a drawer for contextual details.",
+        "specification": "dialog width min(480 px, viewport − 32 px) · padding 24 · radius 16 · elevation modal",
+        "usage": "Native dialog provides modal focus containment and Escape dismissal. Return focus to the trigger on close. Keep destructive confirmation specific to the action."
+      },
+      {
+        "id": "data",
+        "title": "Tables, sorting, filters & pagination",
+        "description": "Dense information still needs a readable rhythm.",
+        "specification": "row min-height 56 · cell padding 12 / 16 · header 14 / 600 · divider 1 · 3 rows per demo page",
+        "usage": "Sort controls expose their direction. Filters reset pagination. Selection applies to the visible page; checkbox names identify their rows. Empty results are explicit."
+      },
+      {
+        "id": "status",
+        "title": "Tags, avatars & progress",
+        "description": "Small signals need a clear meaning.",
+        "specification": "tag height 28 · avatar 32 · progress height 6 · steps gap 24 · spinner 18",
+        "usage": "Show percentages only for measured progress. Indeterminate loading uses a spinner and a task label. Never imply a generated estimate is actual progress."
+      },
+      {
+        "id": "states",
+        "title": "Empty, loading, error & success states",
+        "description": "Explain what happened and what someone can do next.",
+        "specification": "state padding 32 · icon 40 · heading 20 / 650 · text max-width 32 ch · action gap 16",
+        "usage": "A zero state, no search results, permission issue and network failure need different copy. Skeletons match the expected content shape; reduced motion removes shimmer."
+      },
+      {
+        "id": "disclosure",
+        "title": "Cards, accordions, tooltips & shortcuts",
+        "description": "Progressive disclosure keeps secondary information close.",
+        "specification": "card radius 10 · content padding 24 · accordion target 44 · tooltip 12 / 16 · shadow overlay",
+        "usage": "Tooltips appear on hover and keyboard focus; they must not contain essential instructions. Accordions use native disclosure behavior. Shortcut labels supplement a visible action."
+      },
+      {
+        "id": "elevation",
+        "title": "Elevation, borders & layers",
+        "description": "Depth comes from neutral shadows and clear surface roles.",
+        "specification": "shadow color neutral black · decorative border color.divider · field border color.border",
+        "usage": "In dark mode, surface contrast and borders carry more of the separation. Never use colored glow as the default elevation. Native dialogs and popovers use the browser top layer."
+      },
+      {
+        "id": "layout",
+        "title": "Layout & spacing in context",
+        "description": "A small workspace composition brings the components together.",
+        "specification": "shell gap 24 · sidebar 160 · content padding 24 · page heading 24 / 700 · section-gap 32",
+        "usage": "Keep most surfaces neutral, use violet for the primary action and selected states, and use semantic colors only when the information has that meaning."
+      }
+    ]
+  }
+]
