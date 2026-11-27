@@ -6,14 +6,14 @@
         "id": "text",
         "title": "Text inputs",
         "description": "Labels stay visible. Hints explain the expected format before an error occurs.",
-        "specification": "control.height 32 / 40 / 48 · radius 6 · border 1 · padding-x 14 · gap 8",
-        "usage": "Neutral boundaries identify fields. The focus indicator uses the text color, with a 3 px offset ring; brand violet is reserved for actions and selected values."
+        "specification": "control.height 32 / 40 / 48 · radius 6 · border 1 subtle · padding-x 14 · gap 8",
+        "usage": "Subtle neutral boundaries match the surrounding containers; hover and focus strengthen the field outline. The focus indicator uses the text color, with a 3 px offset ring; brand violet is reserved for actions and selected values."
       },
       {
         "id": "field-states",
         "title": "Field states",
         "description": "Default, hover, focus, filled, invalid, read-only and disabled.",
-        "specification": "border default: color.border · hover: color.text · invalid: color.error · focus: text / 3 px",
+        "specification": "border default: color.border · hover: color.borderHover · invalid: color.error · focus: text / 3 px",
         "usage": "Errors use text and an icon as well as color. Disabled controls do not accept interaction; read-only values can still be copied."
       },
       {
@@ -63,7 +63,7 @@
         "title": "Containers, borders & spacing",
         "description": "The same quiet foundation supports every form.",
         "specification": "space 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 · container padding 24 · control border 1",
-        "usage": "Use dividers for grouping and stronger neutral boundaries for interactive controls. Do not tint input borders or shadows violet just to make them feel branded."
+        "usage": "Use dividers for grouping and subtle neutral resting borders for controls, with stronger hover and focus treatment. Do not tint input borders or shadows violet just to make them feel branded."
       }
     ]
   },
@@ -102,8 +102,8 @@
         "id": "notifications",
         "title": "Toasts & inline notifications",
         "description": "Feedback names the outcome and gives a next step when needed.",
-        "specification": "toast width min(360 px, viewport − 32 px) · padding 16 · radius 10 · status icon 20",
-        "usage": "Status uses semantic tokens with an icon and message. Toasts are dismissible and remain until dismissed in this demo. Keep critical errors inline and do not rely on transient feedback."
+        "specification": "toast width min(380 px, viewport − 32 px) · padding 16 · radius 14 · icon badge 32 / glyph 18",
+        "usage": "Status uses a compact icon, clear content and a uniform subtle outline, without an accent stripe. Toasts are dismissible and remain until dismissed in this demo. Keep critical errors inline and do not rely on transient feedback."
       },
       {
         "id": "overlays",
@@ -122,8 +122,8 @@
       {
         "id": "status",
         "title": "Tags, avatars & progress",
-        "description": "Small signals need a clear meaning.",
-        "specification": "tag height 28 · avatar 32 · progress height 6 · steps gap 24 · spinner 18",
+        "description": "Soft tinted fills distinguish semantic statuses; neutral tags stay gray.",
+        "specification": "tag height 28 · tinted fill / subtle semantic border · avatar 32 · progress height 6 · steps gap 24 · spinner 18",
         "usage": "Show percentages only for measured progress. Indeterminate loading uses a spinner and a task label. Never imply a generated estimate is actual progress."
       },
       {
